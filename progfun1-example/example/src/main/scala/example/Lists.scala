@@ -23,12 +23,15 @@ object Lists:
    * @return The sum of all elements in `xs`
    */
   def sum(xs: List[Int]): Int = {
-    val sum:Int = 0
+    var sum:Int = 0
     for(n<-xs){
       sum = sum+n
     }
     return sum
   }
+
+
+  //def sum(xs: List[Int]): Int = ???
 
   /**
    * This method returns the largest element in a list of integers. If the
